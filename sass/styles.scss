@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+$primary: #5441d1;
+$grey: rgba(205, 205, 205, 1);
+strong {
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  height: 17vh;
+  justify-content: space-between;
+  text-transform: uppercase;
+  width: 100vw;
+}
+
+.nav-logo {
+  align-items: center;
+  display: flex;
+  height: inherit;
+  padding-left: 100px;
+  width: 40%;
+}
+
+nav ul {
+  align-items: center;
+  border-radius: 0px 0px 0px 20px;
+  background-color: $primary;
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  justify-content: space-between;
+  width: 40%;
+
+  padding-left: 60px;
+  padding-right: 120px;
+}
+nav li {
+  list-style: none;
+}
+.nav-btn {
+  background-color: inherit;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  width: 100px;
+  text-transform: uppercase;
+}
+
+.nav-log {
+  align-items: center;
+  background-color: $primary;
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  font-size: 16px;
+  padding-right: 100px;
+  width: 20%;
+  button {
+    margin: 10px;
+  }
+
+  .btn-sign {
+    background-color: lighten($color: $primary, $amount: 3);
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  overflow: hidden;
+  width: 100vw;
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .main-container_1 {
+    width: 40%;
+    section {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      transform: translate(25%, 0%);
+      p {
+        font-family: "Kanit", sans-serif;
+        text-transform: uppercase;
+        color: darken($color: white, $amount: 45);
+        font-size: 12px;
+      }
+
+      form {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+      }
+      form input {
+        box-shadow: -1px 10px 12px 0px rgba(105, 96, 96, 0.21);
+        -webkit-box-shadow: -1px 10px 12px 0px rgba(105, 96, 96, 0.21);
+        -moz-box-shadow: -1px 10px 12px 0px rgba(105, 96, 96, 0.21);
+        font-family: "Manrope", sans-serif;
+        border: 2px groove rgba(161, 164, 127, 0.09);
+        border-radius: 25px 25px 25px 25px;
+        width: 100%;
+        height: 55px;
+        padding-right: 4.6em;
+        padding-left: 1.6em;
+      }
+      form button {
+        background: rgb(255, 131, 28);
+        background: linear-gradient(
+          135deg,
+          rgba(255, 131, 28, 1) 41%,
+          rgba(255, 248, 0, 1) 95%
+        );
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        top: 11%;
+        right: 2%;
+        width: 43px;
+        height: 43px;
+        z-index: 9;
+        i {
+          color: white;
+        }
+      }
+
+      .font1 {
+        font-size: 35px;
+        font-family: "Manrope", sans-serif;
+        color: black;
+      }
+    }
+  }
+
+  .main-container_2 {
+    position: relative;
+    overflow-y: hidden;
+    width: 804px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .triangle {
+    margin-left: auto;
+    margin-right: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 400px solid $primary;
+    border-left: 804px solid transparent;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  img {
+    position: absolute;
+
+    z-index: 9;
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+
+    transform: translate(30%, 0%);
+  }
+
+  .main-cards {
+    box-sizing: border-box;
+    width: inherit;
+    height: 500px;
+
+    section {
+      padding-left: 135px;
+      padding-right: 135px;
+      padding-top: 60px;
+      height: inherit;
+
+      span {
+        font-family: "Kanit", sans-serif;
+        text-transform: uppercase;
+        color: darken($color: white, $amount: 45);
+        font-size: 12px;
+      }
+      .card-container {
+        font-family: "Nunito", sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 0px 15px 0px;
+        width: 100%;
+        height: 100%;
+        .card {
+          position: relative;
+          border-radius: 5px;
+          box-sizing: border-box;
+          flex-direction: column;
+          height: 350px;
+          width: 23%;
+
+          .card-logo {
+            display: flex;
+            align-items: center;
+            // justify-content: center;
+            padding-left: 5px;
+            width: 100%;
+            height: 35%;
+            img {
+              overflow: hidden;
+
+              width: 150px;
+              height: 150px;
+              object-fit: contain;
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+            }
+          }
+          .card-description {
+            padding: 5px 20px 5px 20px;
+            width: 100%;
+            height: 25%;
+            h4 {
+              margin-bottom: 3px;
+            }
+            span {
+              font-family: "Nunito", sans-serif;
+              text-transform: capitalize;
+              color: darken($color: gray, $amount: 20);
+            }
+            p {
+              font-size: 11px;
+              color: gray;
+            }
+          }
+          .card-price {
+            width: 100%;
+            height: 25%;
+            display: flex;
+            flex-direction: row;
+            padding: 5px 20px 5px 20px;
+            align-items: center;
+            justify-content: space-between;
+            h2 {
+              font-family: "Manrope", sans-serif;
+              font-weight: 400;
+              background: #2513cf;
+              background: -webkit-linear-gradient(
+                to right,
+                #2513cf 0%,
+                #30cfaf 100%
+              );
+              background: -moz-linear-gradient(
+                to right,
+                #2513cf 0%,
+                #30cfaf 100%
+              );
+              background: linear-gradient(to right, #2513cf 0%, #30cfaf 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            button {
+              border: 1px solid #b6b6b6;
+              cursor: pointer;
+              background-color: white;
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              transition: all 0.3s ease 0s;
+              i {
+                color: black;
+              }
+              &:hover {
+                i {
+                  color: white;
+                }
+                background-color: #2513cf;
+                -webkit-transition: background-color 200ms linear;
+                -ms-transition: background-color 200ms linear;
+                transition: background-color 200ms linear;
+              }
+            }
+            p {
+              font-size: 11px;
+              color: gray;
+            }
+          }
+          .card-footer {
+            visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 15%;
+            h4 {
+              color: darken($color: gray, $amount: 20);
+              font-size: 13px;
+            }
+          }
+          transition: all 150ms ease-in-out;
+          &:hover {
+            box-shadow: -2px 1px 8px -2px rgba(0, 0, 0, 0.43);
+
+            top: -4px;
+            .card-footer {
+              visibility: visible;
+            }
+          }
+        }
+      }
+    }
+  }
+}

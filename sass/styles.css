@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+strong {
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  height: 17vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+  width: 100vw;
+}
+
+.nav-logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: inherit;
+  padding-left: 100px;
+  width: 40%;
+}
+
+nav ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0px 0px 0px 20px;
+  background-color: #5441d1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: inherit;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+  padding-left: 60px;
+  padding-right: 120px;
+}
+
+nav li {
+  list-style: none;
+}
+
+.nav-btn {
+  background-color: inherit;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  width: 100px;
+  text-transform: uppercase;
+}
+
+.nav-log {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5441d1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
+  padding-right: 100px;
+  width: 20%;
+}
+
+.nav-log button {
+  margin: 10px;
+}
+
+.nav-log .btn-sign {
+  background-color: #5f4dd4;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  overflow: hidden;
+  width: 100vw;
+}
+
+.main-content .main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-content .main-container_1 {
+  width: 40%;
+}
+
+.main-content .main-container_1 section {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transform: translate(25%, 0%);
+          transform: translate(25%, 0%);
+}
+
+.main-content .main-container_1 section p {
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.main-content .main-container_1 section form {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.main-content .main-container_1 section form input {
+  box-shadow: -1px 10px 12px 0px rgba(105, 96, 96, 0.21);
+  -webkit-box-shadow: -1px 10px 12px 0px rgba(105, 96, 96, 0.21);
+  -moz-box-shadow: -1px 10px 12px 0px rgba(105, 96, 96, 0.21);
+  font-family: "Manrope", sans-serif;
+  border: 2px groove rgba(161, 164, 127, 0.09);
+  border-radius: 25px 25px 25px 25px;
+  width: 100%;
+  height: 55px;
+  padding-right: 4.6em;
+  padding-left: 1.6em;
+}
+
+.main-content .main-container_1 section form button {
+  background: #ff831c;
+  background: linear-gradient(135deg, #ff831c 41%, #fff800 95%);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 11%;
+  right: 2%;
+  width: 43px;
+  height: 43px;
+  z-index: 9;
+}
+
+.main-content .main-container_1 section form button i {
+  color: white;
+}
+
+.main-content .main-container_1 section .font1 {
+  font-size: 35px;
+  font-family: "Manrope", sans-serif;
+  color: black;
+}
+
+.main-content .main-container_2 {
+  position: relative;
+  overflow-y: hidden;
+  width: 804px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.main-content .triangle {
+  margin-left: auto;
+  margin-right: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 400px solid #5441d1;
+  border-left: 804px solid transparent;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.main-content img {
+  position: absolute;
+  z-index: 9;
+  width: 600px;
+  height: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transform: translate(30%, 0%);
+          transform: translate(30%, 0%);
+}
+
+.main-content .main-cards {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: inherit;
+  height: 500px;
+}
+
+.main-content .main-cards section {
+  padding-left: 135px;
+  padding-right: 135px;
+  padding-top: 60px;
+  height: inherit;
+}
+
+.main-content .main-cards section span {
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.main-content .main-cards section .card-container {
+  font-family: "Nunito", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 0px 15px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.main-content .main-cards section .card-container .card {
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 350px;
+  width: 23%;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.main-content .main-cards section .card-container .card .card-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+  width: 100%;
+  height: 35%;
+}
+
+.main-content .main-cards section .card-container .card .card-logo img {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.main-content .main-cards section .card-container .card .card-description {
+  padding: 5px 20px 5px 20px;
+  width: 100%;
+  height: 25%;
+}
+
+.main-content .main-cards section .card-container .card .card-description h4 {
+  margin-bottom: 3px;
+}
+
+.main-content .main-cards section .card-container .card .card-description span {
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  color: #4d4d4d;
+}
+
+.main-content .main-cards section .card-container .card .card-description p {
+  font-size: 11px;
+  color: gray;
+}
+
+.main-content .main-cards section .card-container .card .card-price {
+  width: 100%;
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px 20px 5px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-content .main-cards section .card-container .card .card-price h2 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  background: #2513cf;
+  background: -webkit-gradient(linear, left top, right top, from(#2513cf), to(#30cfaf));
+  background: linear-gradient(to right, #2513cf 0%, #30cfaf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-content .main-cards section .card-container .card .card-price button {
+  border: 1px solid #b6b6b6;
+  cursor: pointer;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.main-content .main-cards section .card-container .card .card-price button i {
+  color: black;
+}
+
+.main-content .main-cards section .card-container .card .card-price button:hover {
+  background-color: #2513cf;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.main-content .main-cards section .card-container .card .card-price button:hover i {
+  color: white;
+}
+
+.main-content .main-cards section .card-container .card .card-price p {
+  font-size: 11px;
+  color: gray;
+}
+
+.main-content .main-cards section .card-container .card .card-footer {
+  visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 15%;
+}
+
+.main-content .main-cards section .card-container .card .card-footer h4 {
+  color: #4d4d4d;
+  font-size: 13px;
+}
+
+.main-content .main-cards section .card-container .card:hover {
+  -webkit-box-shadow: -2px 1px 8px -2px rgba(0, 0, 0, 0.43);
+          box-shadow: -2px 1px 8px -2px rgba(0, 0, 0, 0.43);
+  top: -4px;
+}
+
+.main-content .main-cards section .card-container .card:hover .card-footer {
+  visibility: visible;
+}
+/*# sourceMappingURL=styles.css.map */
